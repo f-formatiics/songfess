@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sender = $_POST['sender'] ?: 'Anonim'; // Default ke 'Anonim' jika pengirim kosong
 
     // Menyimpan data ke database
-    $sql = "INSERT INTO songfess (song_title, message, sender) VALUES ('$song_title', '$message', '$sender')";
+    $sql = "INSERT INTO if0_37933721_songfess_db (song_title, message, sender) VALUES ('$song_title', '$message', '$sender')";
 
     if ($conn->query($sql) === TRUE) {
         // Redirect ke halaman utama setelah data disimpan
