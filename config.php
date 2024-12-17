@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root"; // username default untuk XAMPP adalah root
-$password = ""; // password default untuk XAMPP adalah kosong
-$dbname = "songfess_db"; // nama database yang sudah kamu buat
+$servername = "sql309.infinityfree.com";
+$username = "if0_37933721"; // username default untuk XAMPP adalah root
+$password = "rLpr5n8ANztPRt"; // password default untuk XAMPP adalah kosong
+$dbname = "if0_37933721_songfess_db"; // nama database yang sudah kamu buat
 
 // Membuat koneksi
 $conn = new mysqli($servername, $username, $password, $dbname);
